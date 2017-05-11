@@ -24,20 +24,20 @@ public class PersonTest {
 	public static void main(String[] args) {
 		
 		Person p = new Person("Tom");
-		System.out.println(p);
-		p.sayHello();
-		p.sayBye();
 		Korean k = new Korean("홍길동");
-		System.out.println(k);
-		k.sayHello();
-		k.sayBye();
 		Japanese j = new Japanese("다나카");
-		System.out.println(j);
-		j.sayHello();
-		j.sayBye();
 		Chinese c = new Chinese("왕밍");
+		System.out.println(p);
+		System.out.println(k);
+		System.out.println(j);
 		System.out.println(c);
+		p.sayHello();
+		k.sayHello();
+		j.sayHello();
 		c.sayHello();
+		p.sayBye();
+		k.sayBye();
+		j.sayBye();
 		c.sayBye();
 
 	}

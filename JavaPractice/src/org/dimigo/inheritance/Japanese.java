@@ -34,6 +34,6 @@ public class Japanese extends Person{
 	
 	public String toString()
 	{
-		return "저는" + "일본사람" + super.getName() + "입니다";
+		return "저는 " + "일본사람 " + super.getName() + "입니다";
 	}
 }

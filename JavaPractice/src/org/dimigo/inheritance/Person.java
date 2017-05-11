@@ -50,7 +50,7 @@ public class Person {
 	
 	public String toString()
 	{
-		return "저는" + name + "입니다";
+		return "저는 " + name + "입니다";
 	}
 
 }
