@@ -1,7 +1,7 @@
 /**
  * 
  */
-package interfaces;
+package org.dimigo.interfaces;
 
 /**
  * <pre>
